@@ -1,0 +1,29 @@
+.cfluid{
+    height: 92vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: auto;
+}
+.centerdiv{
+    margin: auto;
+    
+    text-align: center;
+    
+}
+
+.sprogram{
+    width: 100%;
+}
+
+.txtbtn{
+    display:flex;
+    margin-left: 5vh;
+    align-items: center;
+    margin-top: 2vh;
+    justify-content: left;
+}
+
+.bmargin{
+    margin-left: 0;
+}

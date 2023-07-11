@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+}
+
+.actv{
+  
+  color:white;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.bname{
+  font-size: xx-large;
+}
+.nlink{
+  font-size: large;
+}
+
