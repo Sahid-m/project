@@ -54,6 +54,15 @@ const Navigation = () => {
             <li className="nav-item">
               <Link
                 onClick={handleNavItemClick}
+                className={`nav-link nlink ${isActiveLink("/project")}`}
+                to="/project"
+              >
+                Projects
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                onClick={handleNavItemClick}
                 className={`nav-link nlink ${isActiveLink("/about")}`}
                 to="/about"
               >
@@ -67,16 +76,6 @@ const Navigation = () => {
                 to="/contact"
               >
                 Contact
-              </Link>
-            </li>
-
-            <li className="nav-item">
-              <Link
-                onClick={handleNavItemClick}
-                className={`nav-link nlink ${isActiveLink("/project")}`}
-                to="/project"
-              >
-                Projects
               </Link>
             </li>
           </ul>

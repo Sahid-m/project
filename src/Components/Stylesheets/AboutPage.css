@@ -1,0 +1,10 @@
+.hline{
+    margin: auto;
+    width: 5vh;
+    height: 5px;
+    background-color: rgb(120, 67, 233);
+    border: none;
+    opacity: 1;
+    border-radius: 10px;
+
+}
