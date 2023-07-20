@@ -2,16 +2,17 @@
   margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.pixelfont {
+  font-family: 'VT323', monospace;
+
+}
+
 .actv{
   
   color:white;
-  font-weight: bolder;
-  font-size: x-large;
+  
 }
-.bname{
-  font-size: xx-large;
-}
-.nlink{
-  font-size: large;
-}
+
 

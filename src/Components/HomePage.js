@@ -4,29 +4,19 @@ import { Link } from "react-router-dom";
 
 export default function HomePage() {
   return (
-    <div
-      className="container-fluid cfluid"
-      style={{ backgroundColor: "lightblue" }}
-    >
-      <div className="centerdiv">
-        <h1 className="sprogram text-xxl">Hi, I am Sahid a Programmer.</h1>
-        <div className=" txtbtn ">
-          <h6 className="subhead">View My Projects Here : </h6>
+    <div>
+      <div className="container-fluid homeContainer">
+        <div className="CenterDiv">
+          <h1 className="display-1 pixelfont ">HI, I AM SAHID MUNJAVAR</h1>
+          <p className="fw-light pixelfont introHeading display-6 fs-3">
+            I am a Computer Science Student Based in UK
+          </p>
           <Link
-            type="button"
             to="/project"
-            className="bmargin ms-4 me-3 btn btn-outline-dark"
+            type="button"
+            className="pixelfont btn btn-dark Project-button fs-4 px-5"
           >
             Projects
-          </Link>
-
-          <h6 className="subhead">Contact me :</h6>
-          <Link
-            type="button"
-            to="/contact"
-            className="ms-4 bmargin btn btn-outline-dark"
-          >
-            Contact
           </Link>
         </div>
       </div>

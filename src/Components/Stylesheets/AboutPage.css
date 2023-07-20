@@ -8,3 +8,40 @@
     border-radius: 10px;
 
 }
+
+.pagemargin{
+    margin-top: 70px;
+}
+
+.skillsbutton{
+    width: 100%;
+    background-color: black;
+    
+}
+
+.skillsbutton:hover{
+    background-color: black;
+    cursor:default;
+}
+
+.hcj{
+    width: 33%;
+    margin-left: 0;
+    margin-right: 1px;
+}
+
+.mern{
+    width:24.8%;
+    margin-right: 1px;
+
+}
+
+@media(max-width: 1200px){
+    .mern1{
+        width:49.5%;
+    }
+    .mern2{
+        width:49.5%;
+    }
+
+}

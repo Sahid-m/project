@@ -1,26 +1,28 @@
-.cfluid{
-    height: 92vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: auto;
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+.homeContainer{
+    height: 100vh;
+    width: 100vw;
 }
-.centerdiv{
-    margin: auto;
-    
+
+.CenterDiv{
     text-align: center;
-    
-}
-
-.sprogram{
-    width: 100%;
-}
-
-.txtbtn{
-    display:flex;
-    margin-left: 5vh;
+    height: 100%;
+    justify-content: center;
+    display: flex;
     align-items: center;
-    margin-top: 2vh;
-    justify-content: left;
+    flex-direction: column;
 }
 
+.pixelfont{
+    font-family: 'VT323', monospace;
+}
+
+.Project-button{
+
+    margin-top: 10px;
+}
+@media(max-width: 478px) {
+.introHeading{
+    margin-top: 60px;
+}
+}

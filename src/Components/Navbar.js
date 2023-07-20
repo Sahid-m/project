@@ -18,9 +18,12 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav
+      className="navbar navbar-expand-lg bg-dark fixed-top"
+      data-bs-theme="dark"
+    >
       <div className="container-fluid">
-        <Link className="bname navbar-brand mb-0 h1 " to="/">
+        <Link className=" fs-1 navbar-brand mb-0 h1 pixelfont " to="/">
           Sahid Munjavar
         </Link>
         <button
@@ -45,7 +48,9 @@ const Navigation = () => {
             <li className="nav-item">
               <Link
                 onClick={handleNavItemClick}
-                className={` nlink nav-link ${isActiveLink("/")}`}
+                className={` pixelfont fs-3 nlink nav-link ${isActiveLink(
+                  "/"
+                )}`}
                 to="/"
               >
                 Home
@@ -54,7 +59,9 @@ const Navigation = () => {
             <li className="nav-item">
               <Link
                 onClick={handleNavItemClick}
-                className={`nav-link nlink ${isActiveLink("/project")}`}
+                className={` pixelfont fs-3 nav-link nlink ${isActiveLink(
+                  "/project"
+                )}`}
                 to="/project"
               >
                 Projects
@@ -63,7 +70,9 @@ const Navigation = () => {
             <li className="nav-item">
               <Link
                 onClick={handleNavItemClick}
-                className={`nav-link nlink ${isActiveLink("/about")}`}
+                className={` pixelfont fs-3 nav-link nlink ${isActiveLink(
+                  "/about"
+                )}`}
                 to="/about"
               >
                 About
@@ -72,7 +81,9 @@ const Navigation = () => {
             <li className="nav-item">
               <Link
                 onClick={handleNavItemClick}
-                className={`nav-link nlink ${isActiveLink("/contact")}`}
+                className={` pixelfont fs-3 nav-link nlink ${isActiveLink(
+                  "/contact"
+                )}`}
                 to="/contact"
               >
                 Contact
