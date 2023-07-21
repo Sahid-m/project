@@ -2,6 +2,9 @@ import React from "react";
 import "./Stylesheets/AboutPage.css";
 
 export default function AboutPage() {
+  const instagramProfile = "https://www.instagram.com/defnot.sahid/";
+  const githubProfile = "https://github.com/Sahid-m";
+
   return (
     <div className="pagemargin pixelfont">
       <div className="container">
@@ -13,7 +16,7 @@ export default function AboutPage() {
         </h4>
 
         <div className="container">
-          <div class="row">
+          <div className="row">
             <div className="col-md-6">
               <h1 className="display-6  text-center ">Who Am I?</h1>
               <p className="aboutPara fs-4">
@@ -46,29 +49,49 @@ export default function AboutPage() {
                 Game development with unity
               </button>
               <div>
-                <button className="my-3  hcj pixelfont btn btn-dark fs-4 ">
+                <button className="my-3  hcj pixelfont btn btn-dark fs-4 plang ">
                   html
                 </button>
-                <button className="   hcj  my-3 pixelfont btn btn-dark fs-4 ">
+                <button className="   hcj  my-3 pixelfont btn btn-dark fs-4 plang ">
                   css
                 </button>
-                <button className="  hcj my-3 pixelfont btn btn-dark fs-4 ">
+                <button className="  hcj my-3 pixelfont btn btn-dark fs-4 plang ">
                   Javascript
                 </button>
               </div>
               <div>
-                <button className="mern mern1 my-3 pixelfont btn btn-dark fs-4 ">
+                <button className="mern mern1 my-3 pixelfont btn btn-dark fs-4 plang ">
                   MongoDB
                 </button>
-                <button className="mern mern1   my-3 pixelfont btn btn-dark fs-4 ">
+                <button className="mern mern1   my-3 pixelfont btn btn-dark fs-4 plang ">
                   Express Js
                 </button>
-                <button className="mern mern2 my-3 pixelfont btn btn-dark fs-4 ">
+                <button className="mern mern2 my-3 pixelfont btn btn-dark fs-4 plang ">
                   React Js
                 </button>
-                <button className="mern mern2 my-3 pixelfont btn btn-dark fs-4 ">
+                <button className="mern mern2 my-3 pixelfont btn btn-dark fs-4 plang ">
                   Node Js
                 </button>
+              </div>
+              <div className="socials">
+                <hr className="hline1 my-2 "></hr>
+                <h1 className="text-center display-6">My Socials</h1>
+                <div className="icon">
+                  <a
+                    href={instagramProfile}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa-brands fa-square-instagram fa-2xl fa-shake "></i>
+                  </a>
+                  <a
+                    href={githubProfile}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa-brands fa-square-github mx-4 fa-2xl fa-shake "></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
