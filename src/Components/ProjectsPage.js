@@ -34,7 +34,7 @@ export default function ProjectsPage() {
                   alt="User Authentications"
                 ></img>
                 <h1 className="display-5 projecthead">
-                  Simple React App For Word Manipulation
+                  Simple React App For Text Manipulation
                 </h1>
               </Link>
             </div>
