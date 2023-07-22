@@ -26,6 +26,15 @@ export default function Projects(props) {
         </div>
 
         <div className="text-center">
+          <a
+            href={props.gitlink}
+            type="button"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" mx-2 pixelfont btn btn-dark Project-button fs-4 px-5"
+          >
+            Github
+          </a>
           <Link
             to="/project"
             type="button"
