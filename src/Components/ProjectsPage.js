@@ -12,7 +12,7 @@ export default function ProjectsPage() {
         <div className="row">
           <div className="col-md-6">
             <div className="">
-              <Link to="/project">
+              <Link to="/project/userauth">
                 <img
                   src={UserLogin}
                   class="img-thumbnail"
@@ -27,7 +27,7 @@ export default function ProjectsPage() {
           <div className="col-md-6">
             {" "}
             <div className="">
-              <Link to="/project">
+              <Link to="/project/simplereactapp">
                 <img
                   src={RApp}
                   class="img-thumbnail"
