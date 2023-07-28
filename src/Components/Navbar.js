@@ -27,16 +27,20 @@ const Navigation = () => {
           Sahid Munjavar
         </Link>
         <button
-          className={`navbar-toggler ${isNavOpen ? "" : "collapsed"}`}
+          className={`navbar-toggler navbar-toggle-icon ${
+            isNavOpen ? "" : "collapsed"
+          }`}
           type="button"
-          onClick={handleNavToggle}
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span
+            onClick={handleNavToggle}
+            className="navbar-toggler-icon"
+          ></span>
         </button>
         <div
           className={`collapse navbar-collapse justify-content-end ${
