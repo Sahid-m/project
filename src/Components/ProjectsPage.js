@@ -3,6 +3,7 @@ import UserLogin from "../images/UserLogin.png";
 import RApp from "../images/SimpleReactApp.png";
 import { Link } from "react-router-dom";
 import "./Stylesheets/ProjetsPage.css";
+import Todo from '../images/TodoApp.png'
 
 export default function ProjectsPage() {
   return (
@@ -15,7 +16,7 @@ export default function ProjectsPage() {
               <Link to="/project/userauth">
                 <img
                   src={UserLogin}
-                  class="img-thumbnail"
+                  className="img-thumbnail"
                   alt="User Authentications"
                 ></img>
                 <h1 className="display-5 projecthead">
@@ -30,7 +31,7 @@ export default function ProjectsPage() {
               <Link to="/project/simplereactapp">
                 <img
                   src={RApp}
-                  class="img-thumbnail"
+                  className="img-thumbnail"
                   alt="User Authentications"
                 ></img>
                 <h1 className="display-5 projecthead">
@@ -41,7 +42,20 @@ export default function ProjectsPage() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6"></div>
+          <div className="col-md-6">
+            <div>
+              <Link to="/project/todoapp">
+                <img
+                  src={Todo}
+                  className="img-thumbnail"
+                  alt="Todo App in React JS"
+                ></img>
+                <h1 className="display-5 projecthead">
+                  Todo App in React JS
+                </h1>
+              </Link>
+            </div>
+          </div>
 
           <div className="col-md-6"></div>
         </div>
