@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './Stylesheets/Projects.css';
 
 export default function Projects(props) {
   return (
@@ -13,7 +14,7 @@ export default function Projects(props) {
               className="img-thumbnail"
               alt={props.alt}
             ></img>
-            <h1 className=" my-3 display-5 projecthead text-center">
+            <h1 className="my-3 disap-sm display-5 projecthead text-center">
               {props.heading}
             </h1>
           </div>
