@@ -1,6 +1,7 @@
 import "./Stylesheets/ContactPage.css";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Footer from "./Footer";
 
 export default function ContactPage() {
   const form = useRef();
@@ -91,6 +92,9 @@ export default function ContactPage() {
           <h4 className=" ms-4 display-6 email pixelfont">+91 8320809147</h4>
         </div>
       </div>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

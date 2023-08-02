@@ -1,0 +1,25 @@
+.footer{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #212529;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.footer h4 {
+    margin: 0;
+    text-align: center;
+    padding:   2rem;
+}
+
+@media screen and (max-width: 768.6px) {
+    .footer h4{
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 457.6px) {
+    .footer h4{
+        font-size: medium !important;
+    }
+}

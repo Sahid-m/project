@@ -3,7 +3,8 @@ import UserLogin from "../images/UserLogin.png";
 import RApp from "../images/SimpleReactApp.png";
 import { Link } from "react-router-dom";
 import "./Stylesheets/ProjetsPage.css";
-import Todo from '../images/TodoApp.png'
+import Todo from "../images/TodoApp.png";
+import Footer from "./Footer.js";
 
 export default function ProjectsPage() {
   return (
@@ -50,9 +51,7 @@ export default function ProjectsPage() {
                   className="img-thumbnail"
                   alt="Todo App in React JS"
                 ></img>
-                <h1 className="display-5 projecthead">
-                  Todo App in React JS
-                </h1>
+                <h1 className="display-5 projecthead">Todo App in React JS</h1>
               </Link>
             </div>
           </div>
@@ -60,6 +59,9 @@ export default function ProjectsPage() {
           <div className="col-md-6"></div>
         </div>
       </div>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

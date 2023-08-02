@@ -1,5 +1,6 @@
 import React from "react";
 import "./Stylesheets/AboutPage.css";
+import Footer from "./Footer";
 
 export default function AboutPage() {
   const instagramProfile = "https://www.instagram.com/defnot.sahid/";
@@ -97,6 +98,9 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
