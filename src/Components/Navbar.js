@@ -52,7 +52,7 @@ const Navigation = () => {
             <li className="nav-item">
               <Link
                 onClick={handleNavItemClick}
-                className={` pixelfont fs-3 nlink nav-link ${isActiveLink(
+                className={` pixelfont fs-2 nlink nav-link ${isActiveLink(
                   "/"
                 )}`}
                 to="/"
@@ -63,7 +63,7 @@ const Navigation = () => {
             <li className="nav-item">
               <Link
                 onClick={handleNavItemClick}
-                className={` pixelfont fs-3 nav-link nlink ${isActiveLink(
+                className={` pixelfont fs-2 nav-link nlink ${isActiveLink(
                   "/project"
                 )}`}
                 to="/project"
@@ -74,7 +74,7 @@ const Navigation = () => {
             <li className="nav-item">
               <Link
                 onClick={handleNavItemClick}
-                className={` pixelfont fs-3 nav-link nlink ${isActiveLink(
+                className={` pixelfont fs-2 nav-link nlink ${isActiveLink(
                   "/about"
                 )}`}
                 to="/about"
@@ -85,7 +85,7 @@ const Navigation = () => {
             <li className="nav-item">
               <Link
                 onClick={handleNavItemClick}
-                className={` pixelfont fs-3 nav-link nlink ${isActiveLink(
+                className={` pixelfont fs-2 nav-link nlink ${isActiveLink(
                   "/contact"
                 )}`}
                 to="/contact"
