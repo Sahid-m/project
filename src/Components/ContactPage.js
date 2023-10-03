@@ -84,12 +84,14 @@ export default function ContactPage() {
         <div className="my-2">
           <i className="fa-regular fa-2xl fa-envelope"></i>
           <h4 className=" ms-4 display-6 email pixelfont">
-            sahidmunjavar.s@gmail.com
+            sahidmunjavar.s@gmail.com / 2362377@brunel.ac.uk
           </h4>
         </div>
         <div className="my-2">
           <i className="fa-solid fa-2xl fa-square-phone"></i>
-          <h4 className=" ms-4 display-6 email pixelfont">+91 8320809147</h4>
+          <h4 className=" ms-4 display-6 email pixelfont">
+            +44 7733011980 / +91 8320809147
+          </h4>
         </div>
       </div>
       <footer>
