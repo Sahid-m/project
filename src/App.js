@@ -7,7 +7,7 @@ import Navbar from "./Components/Navbar.js";
 import Projects from "./Components/Projects.js";
 import UserLogin from "./images/UserLogin.png";
 import RApp from "./images/SimpleReactApp.png";
-import Todo from "./images/TodoApp.png"
+import Todo from "./images/TodoApp.png";
 
 function App() {
   return (
@@ -35,11 +35,11 @@ function App() {
             path="/project/todoapp"
             element={
               <Projects
-                heading="Todo App in react JS"
+                heading="To-do App in react JS"
                 img={Todo}
-                alt="Todo Appp"
+                alt="To-do Appp"
                 gitlink="https://github.com/Sahid-m/todoapp"
-                desc="Create and manage your daily tasks with the intuitive Todo app built using React.js. Stay organized and on top of your to-do list with this user-friendly application. Add, delete and mark tasks as completed with just a few clicks. The app provides a clean and responsive interface, making it easy to view and prioritize your tasks.. Say goodbye to scattered notes and embrace productivity with our feature-rich Todo app in React.js"
+                desc="Create and manage your daily tasks with the intuitive To-do app built using React.js. Stay organized and on top of your to-do list with this user-friendly application. Add, delete and mark tasks as completed with just a few clicks. The app provides a clean and responsive interface, making it easy to view and prioritize your tasks.. Say goodbye to scattered notes and embrace productivity with our feature-rich Todo app in React.js"
               />
             }
           />

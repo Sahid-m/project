@@ -49,9 +49,9 @@ export default function ProjectsPage() {
                 <img
                   src={Todo}
                   className="img-thumbnail"
-                  alt="Todo App in React JS"
+                  alt="To-do App in React JS"
                 ></img>
-                <h1 className="display-5 projecthead">Todo App in React JS</h1>
+                <h1 className="display-5 projecthead">To-do App in React JS</h1>
               </Link>
             </div>
           </div>

@@ -4,12 +4,16 @@
     margin: 0;
     padding: 0;
     color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer h4 {
     margin: 0;
     text-align: center;
-    padding:   2rem;
+    padding:   1.25rem;
 }
 
 @media screen and (max-width: 768.6px) {
