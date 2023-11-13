@@ -85,6 +85,17 @@ const Navigation = () => {
             <li className="nav-item">
               <Link
                 onClick={handleNavItemClick}
+                className={` pixelfont fs-2 nlink nav-link ${isActiveLink(
+                  "/blogs"
+                )}`}
+                to="/blogs"
+              >
+                Blogs
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                onClick={handleNavItemClick}
                 className={` pixelfont fs-2 nav-link nlink ${isActiveLink(
                   "/contact"
                 )}`}

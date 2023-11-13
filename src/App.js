@@ -8,6 +8,7 @@ import Projects from "./Components/Projects.js";
 import UserLogin from "./images/UserLogin.png";
 import RApp from "./images/SimpleReactApp.png";
 import Todo from "./images/TodoApp.png";
+import BlogsPage from "./Components/BlogsPage.js";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" Component={AboutPage} />
           <Route path="/contact" Component={ContactPage} />
           <Route path="/project" Component={ProjectsPage} />
+          <Route path="/blogs" Component={BlogsPage} />
           <Route
             path="/project/userauth"
             element={
