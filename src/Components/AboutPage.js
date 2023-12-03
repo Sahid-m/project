@@ -1,6 +1,7 @@
 import React from "react";
-import "./Stylesheets/AboutPage.css";
+import Helmet from "react-helmet";
 import Footer from "./Footer";
+import "./Stylesheets/AboutPage.css";
 
 export default function AboutPage() {
   const instagramProfile = "https://www.instagram.com/defnot.sahid/";
@@ -8,6 +9,18 @@ export default function AboutPage() {
 
   return (
     <div className="pagemargin pixelfont">
+      <Helmet>
+        <title>About Me - Sahid Munjavar</title>
+        <meta
+          name="description"
+          content="Learn more about Sahid Munjavar, a passionate Computer Science student based in the UK. Discover my journey, skills, and interests in technology."
+        />
+        <meta
+          name="keywords"
+          content="About Me, Sahid Munjavar , Sahid , Munjavar,Programming , Portfolio ,  Computer Science, Student, Technology, UK, Skills"
+        />
+        <meta name="author" content="Sahid Munjavar" />
+      </Helmet>
       <div className="container">
         <h1 className="text-center my-2 display-2">About Me</h1>
         <hr className="hline my-2"></hr>
@@ -81,15 +94,13 @@ export default function AboutPage() {
                   <a
                     href={instagramProfile}
                     target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                    rel="noopener noreferrer">
                     <i className="fa-brands fa-square-instagram fa-2xl fa-shake "></i>
                   </a>
                   <a
                     href={githubProfile}
                     target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                    rel="noopener noreferrer">
                     <i className="fa-brands fa-square-github mx-4 fa-2xl fa-shake "></i>
                   </a>
                 </div>

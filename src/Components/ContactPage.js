@@ -1,7 +1,8 @@
-import "./Stylesheets/ContactPage.css";
-import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import React, { useRef } from "react";
+import { Helmet } from "react-helmet";
 import Footer from "./Footer";
+import "./Stylesheets/ContactPage.css";
 
 export default function ContactPage() {
   const form = useRef();
@@ -29,6 +30,18 @@ export default function ContactPage() {
 
   return (
     <div className="pagemargin">
+      <Helmet>
+        <title>Contact Me - Sahid Munjavar</title>
+        <meta
+          name="description"
+          content="Get in touch with Sahid Munjavar, a Computer Science student based in the UK. Feel free to reach out for collaboration, inquiries, or just to say hello!"
+        />
+        <meta
+          name="keywords"
+          content="Contact Me,Sahid Munjavar , Sahid , Munjavar , Programmer , Programming,  Computer Science, Collaboration, Inquiries, UK"
+        />
+        <meta name="author" content="Sahid Munjavar" />
+      </Helmet>
       <div className="container">
         <h1 className="pixelfont text-center display-2">Contact Me</h1>
         <form ref={form} onSubmit={sendEmail} method="POST">
@@ -65,14 +78,12 @@ export default function ContactPage() {
               id="message"
               name="message"
               rows="7"
-              required
-            ></textarea>
+              required></textarea>
           </div>
           <button
             type="submit"
             value="Send"
-            className="pixelfont submitbutton  fs-5 my-3 btn btn-dark"
-          >
+            className="pixelfont submitbutton  fs-5 my-3 btn btn-dark">
             Submit
           </button>
         </form>
