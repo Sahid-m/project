@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import SimonSays from "../images/SimonSays.png";
 import RApp from "../images/SimpleReactApp.png";
 import Todo from "../images/TodoApp.png";
 import UserLogin from "../images/UserLogin.png";
@@ -62,6 +63,19 @@ export default function ProjectsPage() {
                   className="img-thumbnail"
                   alt="To-do App in React JS"></img>
                 <h1 className="display-5 projecthead">To-do App in React JS</h1>
+              </Link>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div>
+              <Link to="/project/SimonSaysGame">
+                <img
+                  src={SimonSays}
+                  className="img-thumbnail"
+                  alt="Simon Says Game in Java"></img>
+                <h1 className="display-5 projecthead">
+                  Simon Says Game in Java
+                </h1>
               </Link>
             </div>
           </div>

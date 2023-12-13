@@ -1,14 +1,15 @@
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import AboutPage from "./Components/AboutPage.js";
+import BlogsPage from "./Components/BlogsPage.js";
 import ContactPage from "./Components/ContactPage.js";
 import HomePage from "./Components/HomePage.js";
-import ProjectsPage from "./Components/ProjectsPage.js";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar.js";
 import Projects from "./Components/Projects.js";
-import UserLogin from "./images/UserLogin.png";
+import ProjectsPage from "./Components/ProjectsPage.js";
+import SimonSays from "./images/SimonSays.png";
 import RApp from "./images/SimpleReactApp.png";
 import Todo from "./images/TodoApp.png";
-import BlogsPage from "./Components/BlogsPage.js";
+import UserLogin from "./images/UserLogin.png";
 
 function App() {
   return (
@@ -54,6 +55,18 @@ function App() {
                 alt="Simple React App"
                 gitlink="https://github.com/Sahid-m/SimpleReactApp/"
                 desc="This is a simple react application that I made when starting to learn React it is just a simple text manipulation tool that can do multiple things like remove white spaces transform the text to uppercase or lower case or just find the words or character in texts . It uses mostly Javascript and a little react things like UseState hook and some basics routing."
+              />
+            }
+          />
+          <Route
+            path="/project/SimonSaysGame"
+            element={
+              <Projects
+                heading="Simon Says Game in JAVA with Swiftbot"
+                img={SimonSays}
+                alt="Simon Says Game"
+                gitlink="https://github.com/Sahid-m/SaimonSaysProject"
+                desc="This is a Simon Says Game made in Java using Swiftbot. Swiftbot is a rasberry pi based bot with wheels , camera and aditional hardware attached to it. The Game uses Lights to generate a random sequence and then user have to press the buttons in the same sequence as generated if User does it right it goes to next round while adding a color each time so it becomes more and more dificult.The Score and round no are displayed after each round and if the score is more than or equal to 5, the bot does a celebration dive(Basically It moves in a V shape while generating a random lights while its moving). Get Video of this and code in my github"
               />
             }
           />
