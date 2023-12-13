@@ -1,6 +1,11 @@
 # Desc
 
-This is a Portfolio Site for Sahid Munjavar , a Computer Science Student. You can install it locally and just run it doesnt have any complex modules
+This is a Portfolio Site for Sahid Munjavar , a Computer Science Student. 
+
+# How to get this running for you:
+1. Clone this repo
+2. run "npm install"
+3. start npm "npm start run" 
 
 # How to add Projects Page 
 
