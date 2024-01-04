@@ -17,6 +17,25 @@ const Navigation = () => {
     setNavOpen(false);
   };
 
+  const Navs = [
+    {
+      title: "Home",
+      to: "/",
+    },
+    {
+      title: "Projects",
+      to: "/project",
+    },
+    {
+      title: "About",
+      to: "/about",
+    },
+    {
+      title: "Contact",
+      to: "/contact",
+    },
+  ];
+
   return (
     <nav
       className="navbar navbar-expand-lg bg-dark fixed-top"
@@ -45,57 +64,18 @@ const Navigation = () => {
           }`}
           id="navbarSupportedContent">
           <ul className="navbar-nav ">
-            <li className="nav-item">
-              <Link
-                onClick={handleNavItemClick}
-                className={` pixelfont fs-2 nlink nav-link ${isActiveLink(
-                  "/"
-                )}`}
-                to="/">
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                onClick={handleNavItemClick}
-                className={` pixelfont fs-2 nav-link nlink ${isActiveLink(
-                  "/project"
-                )}`}
-                to="/project">
-                Projects
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                onClick={handleNavItemClick}
-                className={` pixelfont fs-2 nav-link nlink ${isActiveLink(
-                  "/about"
-                )}`}
-                to="/about">
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              {/* <Link
-                onClick={handleNavItemClick}
-                className={` pixelfont fs-2 nlink nav-link ${isActiveLink(
-                  "/blogs"
-                )}`}
-                to="/blogs"
-              >
-                Blogs
-              </Link> */}
-            </li>
-            <li className="nav-item">
-              <Link
-                onClick={handleNavItemClick}
-                className={` pixelfont fs-2 nav-link nlink ${isActiveLink(
-                  "/contact"
-                )}`}
-                to="/contact">
-                Contact
-              </Link>
-            </li>
+            {Navs.map((navItem, index) => (
+              <li key={index} className="nav-item">
+                <Link
+                  onClick={handleNavItemClick}
+                  className={` pixelfont fs-2 nlink nav-link ${isActiveLink(
+                    navItem.to
+                  )}`}
+                  to={navItem.to}>
+                  {navItem.title}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
