@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import Eventopia from "../images/Eventopia.png";
 import SimonSays from "../images/SimonSays.png";
 import RApp from "../images/SimpleReactApp.png";
 import Todo from "../images/TodoApp.png";
@@ -27,42 +28,15 @@ export default function ProjectsPage() {
         <h1 className="display-2 text-center my-2">My Projects</h1>
         <div className="row">
           <div className="col-md-6">
-            <div className="">
-              <Link to="/project/userauth">
-                <img
-                  src={UserLogin}
-                  className="img-thumbnail"
-                  alt="User Authentications"></img>
-                <h1 className="display-5 projecthead">
-                  User Authentication System in C++{" "}
-                </h1>
-              </Link>
-            </div>
-          </div>
-          <div className="col-md-6">
-            {" "}
-            <div className="">
-              <Link to="/project/simplereactapp">
-                <img
-                  src={RApp}
-                  className="img-thumbnail"
-                  alt="User Authentications"></img>
-                <h1 className="display-5 projecthead">
-                  Simple React App For Text Manipulation
-                </h1>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-6">
             <div>
-              <Link to="/project/todoapp">
+              <Link to="/project/eventopia">
                 <img
-                  src={Todo}
+                  src={Eventopia}
                   className="img-thumbnail"
-                  alt="To-do App in React JS"></img>
-                <h1 className="display-5 projecthead">To-do App in React JS</h1>
+                  alt="Eventopia"></img>
+                <h1 className="display-5 projecthead">
+                  Eventopia - Full Stack
+                </h1>
               </Link>
             </div>
           </div>
@@ -79,8 +53,47 @@ export default function ProjectsPage() {
               </Link>
             </div>
           </div>
-
-          <div className="col-md-6"></div>
+        </div>
+        <div className="row">
+          <div className="col-md-6">
+            <div className="">
+              <Link to="/project/userauth">
+                <img
+                  src={UserLogin}
+                  className="img-thumbnail"
+                  alt="User Authentications"></img>
+                <h1 className="display-5 projecthead">
+                  User Authentication System in C++{" "}
+                </h1>
+              </Link>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div>
+              <Link to="/project/todoapp">
+                <img
+                  src={Todo}
+                  className="img-thumbnail"
+                  alt="To-do App in React JS"></img>
+                <h1 className="display-5 projecthead">To-do App in React JS</h1>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-6">
+            <div className="">
+              <Link to="/project/simplereactapp">
+                <img
+                  src={RApp}
+                  className="img-thumbnail"
+                  alt="User Authentications"></img>
+                <h1 className="display-5 projecthead">
+                  Simple React App For Text Manipulation
+                </h1>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
       <footer>

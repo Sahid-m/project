@@ -6,6 +6,7 @@ import HomePage from "./Components/HomePage.js";
 import Navbar from "./Components/Navbar.js";
 import Projects from "./Components/Projects.js";
 import ProjectsPage from "./Components/ProjectsPage.js";
+import Eventopia from "./images/Eventopia.png";
 import SimonSays from "./images/SimonSays.png";
 import RApp from "./images/SimpleReactApp.png";
 import Todo from "./images/TodoApp.png";
@@ -67,6 +68,19 @@ function App() {
                 alt="Simon Says Game"
                 gitlink="https://github.com/Sahid-m/SaimonSaysProject"
                 desc="This is a Simon Says Game made in Java using Swiftbot. Swiftbot is a rasberry pi based bot with wheels , camera and aditional hardware attached to it. The Game uses Lights to generate a random sequence and then user have to press the buttons in the same sequence as generated if User does it right it goes to next round while adding a color each time so it becomes more and more dificult.The Score and round no are displayed after each round and if the score is more than or equal to 5, the bot does a celebration dive(Basically It moves in a V shape while generating a random lights while its moving). Get Video of this and code in my github"
+              />
+            }
+          />
+          <Route
+            path="/project/eventopia"
+            element={
+              <Projects
+                heading="Eventopia"
+                img={Eventopia}
+                alt="Eventopia"
+                gitlink="https://github.com/Sahid-m/Eventopia-fullstack"
+                desc="It is an Full Stack Application that is Made By Sahid Munjavar That Helps people Add Events Directly to your Calendar, It Supports Apple Calendar , Outlook Calendar and Google Calendar. User can also sign up and make their own event and view them. User would be also able to edit and delete their events. You Can Use this to Get Remainder for University events. 
+                Here is the tech stack used for this: React JS , Bootstrap , Node JS , Express JS , JWT Tokens , MongoDB , Moongose"
               />
             }
           />
