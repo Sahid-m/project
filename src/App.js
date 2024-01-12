@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route, HashRouter as Router, Routes } from "react-router-dom";
 import AboutPage from "./Components/AboutPage.js";
 import BlogsPage from "./Components/BlogsPage.js";
 import ContactPage from "./Components/ContactPage.js";
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/" Component={HomePage} />
           <Route path="/about" Component={AboutPage} />
           <Route path="/contact" Component={ContactPage} />
-          <Route path="/project" Component={ProjectsPage} />
+          <Route path="/projects" Component={ProjectsPage} />
           <Route path="/blogs" Component={BlogsPage} />
           <Route
             path="/project/userauth"

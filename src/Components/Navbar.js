@@ -24,7 +24,7 @@ const Navigation = () => {
     },
     {
       title: "Projects",
-      to: "/project",
+      to: "/projects",
     },
     {
       title: "About",

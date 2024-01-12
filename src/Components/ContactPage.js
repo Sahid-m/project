@@ -19,13 +19,13 @@ export default function ContactPage() {
       .then(
         (result) => {
           console.log(result.text);
+          alert("Email Sent Succesfully");
         },
         (error) => {
           console.log(error.text);
+          alert(error.text);
         }
       );
-
-    alert("Email Sent Succesfully");
   };
 
   return (

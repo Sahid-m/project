@@ -35,7 +35,7 @@ export default function Projects(props) {
             Github
           </a>
           <Link
-            to="/project"
+            to="/projects"
             type="button"
             className="pixelfont btn btn-dark Project-button fs-4 px-5">
             Go Back
