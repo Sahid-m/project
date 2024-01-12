@@ -35,7 +35,7 @@ export default function AboutPage() {
               <h1 className="display-6  text-center ">Who Am I?</h1>
               <p className="aboutPara fs-4">
                 I am a student in Brunel University that is located in London. I
-                am currently studing Computer Science Bsc and I will be
+                am currently studying Computer Science Bsc and I will be
                 finishing my course in 2027 with 3 years of college and 1 year
                 of Placement.
               </p>
