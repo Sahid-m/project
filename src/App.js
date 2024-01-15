@@ -2,6 +2,7 @@ import { Route, HashRouter as Router, Routes } from "react-router-dom";
 import AboutPage from "./Components/AboutPage.js";
 import BlogsPage from "./Components/BlogsPage.js";
 import ContactPage from "./Components/ContactPage.js";
+import FutureProjects from "./Components/FutureProjects.js";
 import HomePage from "./Components/HomePage.js";
 import Navbar from "./Components/Navbar.js";
 import Projects from "./Components/Projects.js";
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contact" Component={ContactPage} />
           <Route path="/projects" Component={ProjectsPage} />
           <Route path="/blogs" Component={BlogsPage} />
+          <Route path="/ongoingprojects" Component={FutureProjects} />
           <Route
             path="/project/userauth"
             element={

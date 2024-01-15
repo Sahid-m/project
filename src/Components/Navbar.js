@@ -23,6 +23,10 @@ const Navigation = () => {
       to: "/",
     },
     {
+      title: "Current-Projects",
+      to: "/ongoingprojects",
+    },
+    {
       title: "Projects",
       to: "/projects",
     },
