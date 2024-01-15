@@ -88,11 +88,14 @@ export default function AboutPage() {
                 </button>
               </div>
               <div>
-                <button className="two-ele btn-dark btn fs-4 pixelfont plang">
+                <button className="my-3  hcj pixelfont btn btn-dark fs-4 plang">
                   Next JS
                 </button>
-                <button className="two-ele btn-dark btn fs-4 pixelfont plang">
+                <button className="my-3  hcj pixelfont btn btn-dark fs-4 plang">
                   TypeScript
+                </button>
+                <button className="my-3  hcj pixelfont btn btn-dark fs-4 plang">
+                  Web Sockets
                 </button>
               </div>
               <div className="socials">
