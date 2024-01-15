@@ -87,6 +87,14 @@ export default function AboutPage() {
                   Node Js
                 </button>
               </div>
+              <div>
+                <button className="two-ele btn-dark btn fs-4 pixelfont plang">
+                  Next JS
+                </button>
+                <button className="two-ele btn-dark btn fs-4 pixelfont plang">
+                  TypeScript
+                </button>
+              </div>
               <div className="socials">
                 <hr className="hline1 my-2 "></hr>
                 <h1 className="text-center display-6">My Socials</h1>
