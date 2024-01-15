@@ -25,7 +25,7 @@ export default function HomePage() {
             I am a Computer Science Student Based in UK
           </p>
           <Link
-            to="/project"
+            to="/projects"
             type="button"
             className="pixelfont btn btn-dark Project-button fs-4 px-5">
             Projects
