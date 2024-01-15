@@ -95,7 +95,7 @@ export default function AboutPage() {
                   TypeScript
                 </button>
                 <button className="my-3  hcj pixelfont btn btn-dark fs-4 plang">
-                  Web Sockets
+                  WebSockets
                 </button>
               </div>
               <div className="socials">
