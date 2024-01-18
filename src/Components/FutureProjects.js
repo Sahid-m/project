@@ -7,7 +7,7 @@ const currentProjects = [
     title: "Omegle Full Stack Clone",
     description:
       "This is a Full Stack Omegle Clone using Next JS , TypeScript , Tailwind , WebRTC , Web Socket",
-    TechStack: "Next JS,TypeScript,Tailwind,WebRTC,WebSockets",
+    TechStack: "React JS,TypeScript,Tailwind,WebRTC,WebSockets",
     TimeLeft: "1 Month",
     github: "https://github.com/sahid-m/",
   },
@@ -16,7 +16,7 @@ const currentProjects = [
     title: "Chat Application",
     description:
       "This is an Chat Application in Next JS , TypeScript , WebSockets ",
-    TechStack: "Next JS,TypeScript,Tailwind,WebSockets",
+    TechStack: "React JS,TypeScript,Tailwind,WebSockets",
     TimeLeft: "10 Days",
     github: "https://github.com/sahid-m/",
   },
