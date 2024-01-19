@@ -6,26 +6,35 @@ import "./Stylesheets/ContactPage.css";
 
 export default function ContactPage() {
   const form = useRef();
+
+  const emailregex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_dhdu7u9",
-        "template_it4tlgr",
-        form.current,
-        "jMb57gECnI6lfsky4"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert("Email Sent Succesfully");
-        },
-        (error) => {
-          console.log(error.text);
-          alert(error.text);
-        }
-      );
+    if (!emailregex.test(form.current[1].value)) {
+      alert("Invalid email Format");
+      return;
+    }
+
+    if (!emailregex.test())
+      emailjs
+        .sendForm(
+          "service_dhdu7u9",
+          "template_it4tlgr",
+          form.current,
+          "jMb57gECnI6lfsky4"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            alert("Email Sent Succesfully");
+          },
+          (error) => {
+            console.log(error.text);
+            alert(error.text);
+          }
+        );
   };
 
   return (
